@@ -1,26 +1,61 @@
-import { useState } from 'react'
+import React from 'react'
+import BackgroundFX from './components/BackgroundFX'
+import Hero from './components/Hero'
+import Section, { DashboardDemo, VSCodeDemo, CLIDemo, ChromeDemo, ContentDemo } from './components/Section'
+import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 flex items-center justify-center">
-      <div className="bg-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">
-          Vibe Coding Platform
-        </h1>
-        <p className="text-gray-600 mb-6">
-          Your AI-powered development environment
-        </p>
-        <div className="text-center">
-          <button
-            onClick={() => setCount(count + 1)}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
-          >
-            Count is {count}
-          </button>
-        </div>
-      </div>
+    <div className="min-h-screen w-full bg-[#03030A] text-white">
+      {/* Global parallax gold nebula and stars */}
+      <BackgroundFX />
+
+      {/* Hero with Spline cover */}
+      <Hero />
+
+      {/* Dashboard Demo */}
+      <Section
+        eyebrow="Dashboard"
+        title="See everything at a glance — clean, fast, intelligent."
+        subtitle="Floating glass cards with golden highlights show summaries, insights, docs, and exports."
+      >
+        <DashboardDemo />
+      </Section>
+
+      {/* VSCode Extension Demo */}
+      <Section
+        eyebrow="VSCode Extension"
+        title="Your AI copilots your repo — without leaving VSCode."
+      >
+        <VSCodeDemo />
+      </Section>
+
+      {/* CLI Demo */}
+      <Section
+        eyebrow="CLI Tool"
+        title="Powerful command-line tools for fast, scriptable workflows."
+      >
+        <CLIDemo />
+      </Section>
+
+      {/* Chrome Extension Demo */}
+      <Section
+        eyebrow="Chrome Extension"
+        title="Summaries on GitHub — instantly where you need them."
+      >
+        <ChromeDemo />
+      </Section>
+
+      {/* Content Generator Demo */}
+      <Section
+        eyebrow="Content Generator"
+        title="Turn your code into shareable content — in one click."
+      >
+        <ContentDemo />
+      </Section>
+
+      {/* Footer */}
+      <Footer />
     </div>
   )
 }

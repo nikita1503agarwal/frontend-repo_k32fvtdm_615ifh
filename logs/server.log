@@ -1,0 +1,49 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 209 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.61.51:3000/
+5:28:02 PM [vite] warning: The character ">" is not valid inside a JSX element
+97 |                    </div>
+98 |                    <pre className="mt-2 max-h-52 overflow-auto rounded-md bg-[#0B0F19] p-3 text-[12px] leading-5 text-white/80"><code>• High-level architecture: monorepo with packages for UI, API, embeddings
+99 |  • Key flows: indexing -> chunking -> embedding -> retrieval -> generation
+   |                           ^
+100|  • Strengths: modular, test coverage, thoughtful DX utilities
+101|  • Risks: large binary assets, duplicated scripts across packages
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx
+5:28:02 PM [vite] warning: The character ">" is not valid inside a JSX element
+97 |                    </div>
+98 |                    <pre className="mt-2 max-h-52 overflow-auto rounded-md bg-[#0B0F19] p-3 text-[12px] leading-5 text-white/80"><code>• High-level architecture: monorepo with packages for UI, API, embeddings
+99 |  • Key flows: indexing -> chunking -> embedding -> retrieval -> generation
+   |                                       ^
+100|  • Strengths: modular, test coverage, thoughtful DX utilities
+101|  • Risks: large binary assets, duplicated scripts across packages
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx
+5:28:02 PM [vite] warning: The character ">" is not valid inside a JSX element
+97 |                    </div>
+98 |                    <pre className="mt-2 max-h-52 overflow-auto rounded-md bg-[#0B0F19] p-3 text-[12px] leading-5 text-white/80"><code>• High-level architecture: monorepo with packages for UI, API, embeddings
+99 |  • Key flows: indexing -> chunking -> embedding -> retrieval -> generation
+   |                                                    ^
+100|  • Strengths: modular, test coverage, thoughtful DX utilities
+101|  • Risks: large binary assets, duplicated scripts across packages
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx
+5:28:02 PM [vite] warning: The character ">" is not valid inside a JSX element
+97 |                    </div>
+98 |                    <pre className="mt-2 max-h-52 overflow-auto rounded-md bg-[#0B0F19] p-3 text-[12px] leading-5 text-white/80"><code>• High-level architecture: monorepo with packages for UI, API, embeddings
+99 |  • Key flows: indexing -> chunking -> embedding -> retrieval -> generation
+   |                                                                 ^
+100|  • Strengths: modular, test coverage, thoughtful DX utilities
+101|  • Risks: large binary assets, duplicated scripts across packages
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx

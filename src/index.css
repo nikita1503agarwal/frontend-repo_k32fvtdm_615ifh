@@ -15,11 +15,20 @@
   html {
     font-family: var(--font-sans);
     font-feature-settings: "rlig" 1, "calt" 1;
+    scroll-behavior: smooth;
+    background: #03030A;
   }
 
   body {
     @apply antialiased;
+    color: #F3F4F7;
   }
+}
+
+/* Animations */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; filter: drop-shadow(0 0 2px rgba(212,175,55,0.8)); }
+  50% { opacity: 1; filter: drop-shadow(0 0 6px rgba(212,175,55,1)) drop-shadow(0 0 12px rgba(212,175,55,0.5)); }
 }
 
 /* Custom utility classes for shadcn/ui patterns */
